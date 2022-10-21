@@ -1,0 +1,119 @@
+body{
+  margin:0;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+  
+}
+
+.page{
+  width: 1000px;
+  margin: 0px auto 0px;
+  padding-top: 65px ;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Mulish", sans-serif;
+  align-items: center;
+  margin-bottom: 55px;
+  
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  margin:0;
+  padding:0;
+  
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color:#1F1534;
+  opacity: 0.5;
+   
+  
+
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+  
+}
+
+h1 {
+  font-size: 49px;
+  font-weight: normal;
+  font-family: "Mulish", sans-serif;
+  color: #1F1534;
+  line-height: 56px;
+}
+
+h1 strong{
+  color: #89C5CC;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+  font-family: "Opens Sans", sans-serif;
+  margin:40px 0px;
+  width: 438px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  border: none;
+  width: 179px;
+  padding: 14px 32px 15px;
+  background:#69B99D;
+  color: white;
+  border-radius: 4px;
+  font-family: "Opens Sans", sans-serif;
+  font-size: 13.5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #519e83;
+
+}
+
+footer{
+  font-size: 14px;
+  line-height: 28px;
+  color:#1F1534;
+  text-align: center;
+  width: 592px;
+  margin: 0 auto;
+  font-family: "Opens Sans", sans-serif;
+
+}
+
+footer a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  right: 0px;
+  bottom:0;
+
+}
